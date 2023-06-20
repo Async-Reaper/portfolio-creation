@@ -1,0 +1,22 @@
+.layout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-flex: 3;
+  flex-grow: 3;
+  overflow: hidden;
+  z-index: 2;
+
+  .headerWrapper {
+    padding: 16px 0;
+    height: 80px;
+  }
+
+  .glowWrapper {
+    top: -50px;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%);
+  }
+}

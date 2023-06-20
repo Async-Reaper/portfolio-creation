@@ -1,0 +1,43 @@
+:root {
+    --font-family: "Montserrat", serif;
+    --font-size: 16px;
+    --font-weight: 500;
+
+    --container-size: 1300px;
+
+    // Цвета
+    --color-white: #faf5f5;
+
+    --color-neutral: #ffffff;
+    --color-neutral-light: #F7F9FE;
+    --color-neutral-dark: #EEF3FF;
+
+    --color-primary: #1DFF92;
+    --color-secondary: #227f33;
+
+    --color-blue: #0432A1;
+    --color-light: #3A6CE9;
+
+    --color-dark: #0C286E;
+    --color-grey: #151A22;
+
+    --color-grey-light: #A4A4A4;
+    --color-grey-dark: #212624;
+
+    --color-black: #000000;
+    --color-green: #1DFF92;
+
+    --color-green-dark: #337361;
+    --color-red: #F6A3A3;
+    --color-red-light: #FF4473;
+    --overlay-color: rgb(32 126 131 / 72%);
+    --backgroud-color: linear-gradient(180deg, #030B11 0%, #03110A 100%);
+
+    // Эффекты
+    --hover-effect: brightness(1.2);
+
+    //Радиусы
+    --border-radius-xs: 4px;
+    --border-radius-l: 8px;
+    --border-radius-xl: 12px;
+}

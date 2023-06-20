@@ -1,0 +1,6 @@
+export { getChangePortfolioError } from './model/selectors/getChangeContentPortfolioError/getChangePortfolioLoading'
+export { getChangeContentPortfolioLoading } from './model/selectors/getChangeContentPortfolioLoading/getChangePortfolioLoading'
+export { changeContentPortfolio } from './model/services/changeContentPortfolio/changeContentPortfolio'
+export { changeContentPortfolioAction, changeContentPortfolioReducer } from './model/slice/changeContentPortfolioSlice'
+export type { ChangeContentPortfolio, ChangeContentPortfolioSchema } from './model/types/changeContentPortfolio'
+export { ChangeContentPortfolioModal } from './ui/ChangeContentPortfolioModal/ChangeContentPortfolioModal'

@@ -1,0 +1,6 @@
+export { getDeleteContentPortfolioError } from './model/selectors/getDeleteContentPortfolioError/getDeleteContentPortfolioError'
+export { getDeleteContentPortfolioLoading } from './model/selectors/getDeleteContentPortfolioLoading/getDeleteContentPortfolioLoading'
+export { deleteContentPortfolio } from './model/services/deleteContentPortfolio/deleteContentPortfolio'
+export { deleteContentPortfolioActions,deleteContentPortfolioReducer } from './model/slice/deleteContentPortfolioSlice'
+export type { DeleteContentPortfolioSchema } from './model/types/deleteContentPortfolio'
+export { DeleteContentPortfolioModal } from './ui/DeleteContentPortfolioModal/DeleteContentPortfolioModal'

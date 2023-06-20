@@ -1,0 +1,19 @@
+@import "mixins";
+@import "size";
+
+&.size {
+  &--xs {
+    width: 310px;
+    height: 30vh;
+  }
+
+  &--l {
+    width: 543px;
+    height: fit-content;
+  }
+
+  &--xl {
+    width: 360px;
+    height: 50vh;
+  }
+}

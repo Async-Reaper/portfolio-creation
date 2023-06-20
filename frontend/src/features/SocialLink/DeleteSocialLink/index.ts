@@ -1,0 +1,6 @@
+export { getDeleteLinkError } from './model/selectors/getDeleteLinkError/getDeleteLinkError'
+export { getDeleteLinkLoading } from './model/selectors/getDeleteLinkLoading/getDeleteLinkLoading'
+export { deleteLink } from './model/services/deleteLink/deleteLink'
+export { deleteLinkActions,deleteLinkReducer } from './model/slice/deleteLinkSlice'
+export type { DeleteLinkSchema } from './model/types/deleteLink'
+export { DeleteLinkModal } from './ui/DeleteLinkModal/DeleteLinkModal'

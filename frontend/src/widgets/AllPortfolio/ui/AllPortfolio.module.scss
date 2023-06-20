@@ -1,0 +1,12 @@
+.portfolio__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+  gap: 16px;
+
+  .portfolio__item {
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background: rgba(2, 6, 9, 0.11);
+  }
+}

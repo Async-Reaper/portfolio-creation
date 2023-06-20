@@ -1,0 +1,14 @@
+.image {
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+
+  &.objectFit {
+    &--contain {
+      object-fit: contain;
+    }
+    &--cover {
+      object-fit: cover;
+    }
+  }
+}

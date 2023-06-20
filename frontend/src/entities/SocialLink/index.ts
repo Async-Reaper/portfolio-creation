@@ -1,0 +1,5 @@
+export { getSocialLinksData } from './model/selectors/getSocialLinksData/getSocialLinksData'
+export { getSocialLinksError } from './model/selectors/getSocialLinksError/getSocialLinksError'
+export {socialLinkActions,socialLinkReducer} from './model/slice/socialLinkSlice'
+export { type SocialLinks, type SocialLinksSchema } from './model/types/socialLinks'
+export { initSocialLink } from './model/services/initSocialLink/initSocialLink'

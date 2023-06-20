@@ -1,0 +1,17 @@
+&.variant {
+  &--primary {
+    background: #000000;;
+
+    .label {
+      color: #777676;
+    }
+
+    .input {
+      color: var(--color-white);
+
+      &::placeholder {
+        color: #A9AFC0;
+      }
+    }
+  }
+}

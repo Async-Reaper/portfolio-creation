@@ -1,0 +1,27 @@
+.text {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  padding: 0;
+  margin: 0;
+
+  &.bold {
+    font-weight: 700;
+  }
+
+  &.inline {
+    display: inline-block;
+  }
+
+  &.noWrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &.uppercase {
+    text-transform: uppercase;
+  }
+
+  @import './styles/colors.styles.module.scss';
+  @import './styles/sizes.styles.module.scss';
+}

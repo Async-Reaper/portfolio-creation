@@ -1,0 +1,33 @@
+@import "reset";
+@import "fonts/fonts";
+@import "variables/global";
+
+.app,
+.app_modal {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--color-neutral);
+    font-weight: var(--font-weight);
+}
+
+.app {
+    position: relative;
+    background: var(--backgroud-color);
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--color-secondary-dark);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--color-secondary);
+    border-radius: 5px;
+}

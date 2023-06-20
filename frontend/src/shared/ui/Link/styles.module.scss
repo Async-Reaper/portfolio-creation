@@ -1,0 +1,51 @@
+.link {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px 0;
+    transition: .3s ease;
+    color: var(--color-neutral);
+
+    svg {
+        margin-right: 10px;
+
+        path {
+            transition: .3s ease;
+        }
+    }
+
+    &:hover {
+        color: var(--color-primary);
+        svg {
+            path {
+                fill: var(--color-primary);
+            }
+        }
+    }
+
+    &.active {
+        color: var(--color-primary);
+        svg {
+            path {
+                fill: var(--color-primary);
+            }
+        }
+    }
+
+    &.variant {
+        &--xs {
+            max-width: 36px;
+            max-height: 36px;
+        }
+
+        &--l {
+            max-width: 46px;
+            max-height: 46px;
+        }
+
+        &--xl {
+            max-width: 56px;
+            max-height: 56px;
+        }
+    }
+}

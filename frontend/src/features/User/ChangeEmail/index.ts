@@ -1,0 +1,6 @@
+export { getEmailError } from './model/selectors/getEmailError/getEmailError'
+export { getEmailLoading } from './model/selectors/getEmailLoading/getEmailLoading'
+export { changeEmail } from './model/services/changeEmail/changeEmail'
+export { changeEmailActions, changeEmailReducer } from './model/slice/changeEmailSlice'
+export type { ChangeEmailSchema } from './model/types/changeEmail'
+export { ChangeEmailModal } from './ui/ChangeEmailModal/ChangeEmailModal'

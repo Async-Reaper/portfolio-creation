@@ -1,0 +1,9 @@
+&.color {
+  &--inherit {
+    color: inherit;
+  }
+
+  &--light {
+    background: rgba(2, 6, 9, 0.11);
+  }
+}

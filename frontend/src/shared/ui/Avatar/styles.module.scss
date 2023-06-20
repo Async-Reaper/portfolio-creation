@@ -1,0 +1,39 @@
+@import "../adaptive.scss";
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--border-radius-l);
+  text-align: center;
+
+  &.size {
+    &--xs {
+      @include adaptive("width", 40, 46);
+    }
+
+    &--l {
+      @include adaptive("width", 54, 46);
+    }
+
+    &--xl {
+      @include adaptive("width", 65, 46);
+    }
+
+    &--xxl {
+      @include adaptive("width", 90, 46);
+    }
+
+  }
+
+  .avatarImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: var(--border-radius-l);
+
+
+    &.rounded {
+      border-radius: 50px;
+    }
+  }
+}

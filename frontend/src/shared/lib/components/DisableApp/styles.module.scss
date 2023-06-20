@@ -1,0 +1,14 @@
+.disablePageContainer {
+  min-height: 90vh;
+}
+.disablePage {
+  margin-top: 30px;
+  background: #4876EA;
+  min-height: 90vh;
+  border-radius: 43px;
+
+  .disablePage_desc {
+    text-align: center;
+    color: rgba(128, 161, 241, 1);
+  }
+}

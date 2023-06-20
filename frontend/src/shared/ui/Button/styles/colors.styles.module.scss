@@ -1,0 +1,26 @@
+&.variant {
+  &--neutral {
+    color: var(--color-neutral);
+    background: transparent;
+  }
+
+  &--primary {
+    color: var(--color-black);
+    background: var(--color-primary);
+  }
+
+  &--secondary {
+    color: #ECF1FD;
+    background: #48ea63;
+  }
+
+  &--dark {
+    color: #3A6CE9;
+    background: #1e6e0c;
+  }
+
+  &--grey {
+    color: var(--color-neutral);
+    background: var(--color-grey);
+  }
+}

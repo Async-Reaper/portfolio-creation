@@ -1,0 +1,84 @@
+@import "mixins";
+@import "size";
+
+&.variant {
+  &--h1 {
+    @include adaptive("font-size", 94, 20);
+    line-height: 80%;
+    font-weight: 500;
+
+    &.bold {
+      font-weight: 500;
+    }
+  }
+
+  &--h2 {
+    @include adaptive("font-size", 60, 16);
+    line-height: 80%;
+    font-weight: 300;
+
+    &.bold {
+      font-weight: 500;
+    }
+  }
+
+  &--h3 {
+    @include adaptive("font-size", 45, 16);
+    line-height: 100%;
+    font-weight: 500;
+
+    &.bold {
+      font-weight: 600;
+    }
+  }
+
+  &--h4 {
+    @include adaptive("font-size", 28, 14);
+    line-height: 110%;
+    font-weight: 500;
+
+    &.bold {
+      font-weight: 700;
+    }
+  }
+
+  &--h5 {
+    @include adaptive("font-size", 20, 12);
+    line-height: 110%;
+    font-weight: 400;
+
+    &.bold {
+      font-weight: 700;
+    }
+  }
+
+  &--h6 {
+    @include adaptive("font-size", 16, 10);
+    line-height: 130%;
+    font-weight: 500;
+
+    &.bold {
+      font-weight: 700;
+    }
+  }
+
+  &--h7 {
+    @include adaptive("font-size", 14, 10);
+    line-height: 130%;
+    font-weight: 400;
+
+    &.bold {
+      font-weight: 600;
+    }
+  }
+
+  &--caption {
+    @include adaptive("font-size", 12, 10);
+    line-height: 110%;
+    font-weight: 500;
+
+    &.bold {
+      font-weight: 600;
+    }
+  }
+}

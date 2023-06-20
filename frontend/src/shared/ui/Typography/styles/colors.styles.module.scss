@@ -1,0 +1,25 @@
+&.color {
+  &--inherit {
+    color: inherit;
+  }
+
+  &--neutral-text {
+    color: var(--color-neutral);
+  }
+
+  &--green {
+    color: var(--color-primary);
+  }
+
+  &--secondary-text {
+    color: var(--color-secondary);
+  }
+
+  &--danger-text {
+    color: var(--color-red);
+  }
+
+  &--success-text {
+    color: #75F2AE;
+  }
+}
